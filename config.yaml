@@ -58,8 +58,9 @@ params:
   description: Welcome to my site
   # staticPath: ""  # The path to serve the static files from
   # favicon: "/fav.png"
-  icon: fa fa-home
-  favicon: fa fa-home
+  # icon: dog
+  icon: smile
+  favicon: fa-light fa-face-smile
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -107,7 +108,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: true # Show brand logo in nav bar | default is true
     # brandName: "Brand Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
