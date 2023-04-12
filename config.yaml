@@ -184,7 +184,7 @@ params:
         # GPA: "3.9 out of 5.0"
         content: |-
           Our work is published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation.
-          - [Generalized policy-based noninterference for efficient confidentiality-preservation.](https://pldi23.sigplan.org/track/pldi-2023-pldi)  \
+          - [Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI '23).](https://pldi23.sigplan.org/track/pldi-2023-pldi)  \
           **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
           
 
