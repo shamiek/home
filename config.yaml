@@ -161,14 +161,14 @@ params:
     
     skills:
       enable: true
-      title: "A few technologies I have worked with:"
+      title: "Some technologies I have worked with include:"
       items:
         - "Scala, C++, Python, Java"
         - "Apache Spark, Apache Hadoop"
         - "Intel SGX"
         - "Amazon Elastic Cloud Compute (EC2), Amazon Simple Storage Service (S3)"
         - "Docker, QEMU"
-        - Jekyll, Hugo
+        - "Jekyll, Hugo"
 
   # Education
   education:
@@ -184,7 +184,8 @@ params:
         # GPA: "3.9 out of 5.0"
         content: |-
           Our work is published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation.
-          - [Generalized policy-based noninterference for efficient confidentiality-preservation.](https://pldi23.sigplan.org/track/pldi-2023-pldi)  **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
+          - [Generalized policy-based noninterference for efficient confidentiality-preservation.](https://pldi23.sigplan.org/track/pldi-2023-pldi)  \
+          **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
           
 
           Extracurricular Activities
@@ -200,7 +201,7 @@ params:
         date: "2015 - 2017"
         # GPA: "3.8 out of 5.0"
         content: |-
-          Some content
+          Courses: 
           - first goes here
 
           Extracurricular Activities
@@ -216,13 +217,12 @@ params:
         date: "2011 - 2015"
         # GPA: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          Courses maybe?
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
           - Face mask detection using a single convolutional neural network.
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Key member of aquatics club.
         featuredLink:
           enable: false
           name: "My academic record"
@@ -279,6 +279,23 @@ params:
           - **Reduced** reconstruction time of femoral head by over **50%**.
           - **Achieved** an outstanding accuracy of **93%** compared to manual reconstruction of femoral head.
 
+      - job: "Course Instructor"
+        company: "Purdue University"
+        companyUrl: "https://www.cs.purdue.edu/"
+        date: "Summer 2016"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+          content: I worked as a visiting research intern for 8 weeks at SensorHound.
+        content: |
+          Instructed **Foundations of Computer Science (CS 182)** to a class of 50 students in summer 2016.
+
+          Responsibilities included
+          - **curating** course content and **delivering** lectures.
+          - **desinging** and **grading** quizzes, assignments and examinations.
+
       # - job: "Senior Software Developer"
       #   company: "Facebook"
       #   companyUrl: "https://example.com"
@@ -331,14 +348,17 @@ params:
     # title: "Custom Name"
     items:
       - title: Accepted at flagship conference PLDI 2023!
-        content: Our work on hybrid approach to secure distributed data analytics accepted at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation.
+        content: Our work on **hybrid approach to secure distributed data analytics** accepted at the 44th ACM SIGPLAN Conference on **Programming Language Design and Implementation**.
         # url: https://doi.org/10.1145/3591231
         url: https://pldi23.sigplan.org/track/pldi-2023-pldi
-      - title: Built a website for my lab
-        content: Bootstrapped a website for SWYSTEMS lab.
+      - title: Created a web presence for my lab
+        content: Built a website for **SWYSTEMS** lab.
         url: https://swystems.usi.ch/
       - title: Securing SBIR grant & TechConnect award for SensorHound, Inc.
-        content: Key contributions in securing Small Business Innovation Research (SBIR) grant and TechConnect Defense Innovation Award 2018 for SensorHound, Inc.
+        content: |
+         Key contributions in securing
+            - **Small Business Innovation Research (SBIR)** grant.
+            - **TechConnect Defense Innovation Award 2018** for SensorHound, Inc.
         url: https://swystems.usi.ch/
       # - title: Hugo Profile
       #   content: Developed a theme and getting 1K+ downloads per month.
