@@ -2,6 +2,7 @@ baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
+canonifyURLs: true
 
 outputs:
   home:
@@ -248,7 +249,7 @@ params:
           enable: false
           content: I worked as a software engineer for more than one year at SensorHound.
         content: |
-          I worked as a **software engineer** and developed products at the intersection of **cybersecurity** and **program analysis*8 which detected exploits at real-time on **embedded-resource constrained systems** and **IoT devices**.
+          I worked as a **software engineer** and developed products at the intersection of **cybersecurity** and **program analysis** which detected exploits at real-time on **embedded-resource constrained systems** and **IoT devices**.
 
           - Lead developer for SensorTracer --- a _low footprint_ novel source code **instrumentation tool** based on Ball-Larus path profiling built for a wide range of systems.
           - Lead developer for SensorDoctor --- a diagnostic tool to replay exploits.
