@@ -161,13 +161,14 @@ params:
     
     skills:
       enable: true
-      title: "Here are a few technologies I have been lately working with:"
+      title: "A few technologies I have worked with:"
       items:
         - "Scala, C++, Python, Java"
         - "Apache Spark, Apache Hadoop"
         - "Intel SGX"
         - "Amazon Elastic Cloud Compute (EC2), Amazon Simple Storage Service (S3)"
         - "Docker, QEMU"
+        - Jekyll, Hugo
 
   # Education
   education:
