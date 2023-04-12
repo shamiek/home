@@ -8,6 +8,9 @@
 {{ end }}
 
 {{ define "title" }}
+{{ with .Params.icon }}
+  <i class='fa fa-{{ . }} fa-fw'></i>
+{{ end }}
 {{ .Site.Title }}
 {{ end }}
 
