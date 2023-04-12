@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://shamiek.github.io/home/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "My Profile"
+  title: "Hi"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -103,8 +103,8 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Brand Profile" # Brand name for the brand | default is the title variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    # brandName: "Brand Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -122,7 +122,7 @@ params:
     title: "Shamiek."
     subtitle: "PhD Student @ USI"
     # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    content: "I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at USI supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, and cook."
+    content: "I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at USI supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc."
     image: /images/hero.svg
     bottomImage:
       enable: true
