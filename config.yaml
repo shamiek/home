@@ -56,7 +56,7 @@ Menus:
 params:
   title: ""
   description: Welcome to my site
-  # staticPath: ""  # The path to serve the static files from
+  staticPath: ""  # The path to serve the static files from
   # favicon: "/fav.png"
   # icon: dog
   icon: smile
@@ -126,7 +126,7 @@ params:
     subtitle: "PhD Student @ USI"
     # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     content: "I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at USI supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc."
-    image: /images/hero.svg
+    image: me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
