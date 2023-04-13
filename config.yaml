@@ -187,8 +187,10 @@ params:
           - [Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI 2023).](https://pldi23.sigplan.org/track/pldi-2023-pldi)  \
           **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
           
+          Courses:
+           - Distributed Systems, Data Management, Distributed Algorithms, Software Analysis.
 
-          Extracurricular Activities
+          Extracurricular Activities:
             - Active member of the ski club. 
         featuredLink:
           enable: false
@@ -204,7 +206,7 @@ params:
           Courses: 
           - Operating Systems, Compiling and Programming Systems, Algorithm Design & Analysis, Data Communication and Computer Networks, Parallel Computing, Statistical Machine Learning, Data Mining.
 
-          Extracurricular Activities
+          Extracurricular Activities:
             - Key leader for SKY Campus Happiness (SKY@Purdue).
         featuredLink:
           enable: false
@@ -217,11 +219,11 @@ params:
         date: "2011 - 2015"
         # GPA: "3.9 out of 5.0"
         content: |-
-          Courses
+          Courses:
           - Sparse Representation & Compressive Sensing, Probability and Random processes, Advanced Control Systems, Digital Signal Processing, Pattern Recognition & Machine Learning, Digital Image Processing, Introduction to Queueing Systems.
 
-          Extracurricular Activities
-            - Key member of aquatics team of IITG.
+          Extracurricular Activities:
+            - Valuable player of IITG water polo team.
         featuredLink:
           enable: false
           name: "My academic record"
