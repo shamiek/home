@@ -349,14 +349,14 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Accepted at top-tier conference!
+      - title: Paper accepted at top-tier conference!
         content: Our work on **hybrid approach to secure distributed data analytics** accepted at the 44th ACM SIGPLAN Conference on **Programming Language Design and Implementation (PLDI 2023)**.
         # url: https://doi.org/10.1145/3591231
         url: https://pldi23.sigplan.org/track/pldi-2023-pldi
       - title: Created a web presence for my lab
         content: Built a website for **SWYSTEMS** lab.
         url: https://swystems.usi.ch/
-      - title: Securing NSF SBIR grant & TechConnect award for SensorHound, Inc.
+      - title: NSF SBIR grant & TechConnect award for SensorHound, Inc.
         content: |
          Key contributions in securing
             - **NSF Small Business Innovation Research (SBIR)** grant.
