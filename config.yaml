@@ -167,8 +167,8 @@ params:
       items:
         - "Scala, C++, Python, Java"
         - "Apache Spark, Apache Hadoop"
-        - "Intel SGX"
-        - "Amazon Elastic Cloud Compute (EC2), Amazon Simple Storage Service (S3)"
+        - "Intel Software Guard Extensions (SGX), AWS Nitro, AMD Secure Encrypted Virtualization (SEV)"
+        - "Amazon Elastic Cloud Compute (EC2), Amazon Simple Storage Service (S3), Azure"
         - "Docker, QEMU"
         - "Jekyll, Hugo"
 
@@ -187,7 +187,7 @@ params:
         content: |-
           Our work is published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation.
           - [Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI 2023).](https://pldi23.sigplan.org/track/pldi-2023-pldi)  \
-          **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
+          **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides. [Link to full paper.](https://swystems.usi.ch/files/hydra_supplementary.pdf)
           
           Courses:
            - Distributed Systems, Data Management, Distributed Algorithms, Software Analysis.
