@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.127.0"><meta charset="UTF-8">
+	<meta name="generator" content="Hugo 0.92.2" /><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -29,37 +29,26 @@
 
 
 
-  
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LTHXYDXWQT"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-LTHXYDXWQT');
-        }
-      </script>
-    
-  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTHXYDXWQT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-LTHXYDXWQT', { 'anonymize_ip': false });
+}
+</script>
+
+<meta property="og:title" content="Hugo Profile" />
+<meta property="og:description" content="Welcome to my site" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://shamiek.github.io/home/" />
 
 
-<meta property="og:url" content="https://shamiek.github.io/home/">
-  <meta property="og:site_name" content="Hugo Profile">
-  <meta property="og:title" content="Hugo Profile">
-  <meta property="og:description" content="Welcome to my site">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hugo Profile">
-  <meta name="twitter:description" content="Welcome to my site">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo Profile"/>
+<meta name="twitter:description" content="Welcome to my site"/>
 
 
 <link rel="stylesheet" href="https://shamiek.github.io/home/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="https://shamiek.github.io/home/css/header.css" media="all">
@@ -662,10 +651,16 @@ Hugo Profile
 
                                 
                                 <div class="py-1 education-content">
-                                    <p>Our work is published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation.</p>
-<ul>
-<li><a href="https://pldi23.sigplan.org/track/pldi-2023-pldi">Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI 2023).</a>  <br>
-<strong>Shamiek Mangipudi</strong>, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides. <a href="https://swystems.usi.ch/files/hydra_supplementary.pdf">Link to full paper.</a></li>
+                                    <ul>
+<li>
+<p><strong>Confidential Analytics with Scylla</strong>. Under review. <br>
+Scylla is a mechanism-agnostic scalable confidential analytics framework built on top of the popular large-scale data analytics engine Spark. Scylla modifies Spark runtime to realize a general architecture with an efficient design that accommodates virtual-machine-like trusted execution environments (TEEs) such as Intel SGX, AMD SEV, AWS Nitro and readily compatible with latest TEEs like Intel TDX. Additionally, Scylla also utilizes partial homomorphic encryption (PHE), and enclave-like native TEEs such as Intel SGX, for secure computation.</p>
+</li>
+<li>
+<p><a href="https://pldi23.sigplan.org/track/pldi-2023-pldi">Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI 2023).</a> Published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation. <br>
+<strong>Shamiek Mangipudi</strong>, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides. <a href="https://swystems.usi.ch/files/hydra_supplementary.pdf">Link to full paper.</a> <br>
+A hybrid solution to distributed confidentiality-preserving data analytics (HYDRA) based on Apache Spark which supports both Intel SGX and parital homomorphic encryption (PHE) in isolation or their hybrid combo to achieve end-to-end confidential guarantees based on a novel formulation of noninterference.</p>
+</li>
 </ul>
 <p>Courses:</p>
 <ul>
@@ -854,6 +849,7 @@ Hugo Profile
 <li>Lead developer for SensorDoctor &mdash; a diagnostic tool to replay exploits.</li>
 <li><strong>Designed</strong> tests and <strong>successfully tested</strong> over comprehensive code structures across linux-based application utilities such as <em>wget, vim, sed, flex, grep, gzip, bash, etc.</em></li>
 </ul>
+
                         </div>
                         
                         
@@ -884,6 +880,7 @@ Hugo Profile
 <li><strong>Reduced</strong> reconstruction time of femoral head by over <strong>50%</strong>.</li>
 <li><strong>Achieved</strong> an outstanding accuracy of <strong>93%</strong> compared to manual reconstruction of femoral head.</li>
 </ul>
+
                             </div>
                         </div>
                         
@@ -971,6 +968,7 @@ Hugo Profile
 <li><strong>NSF Small Business Innovation Research (SBIR)</strong> grant.</li>
 <li><strong>TechConnect Defense Innovation Award 2018</strong> for SensorHound, Inc.</li>
 </ul>
+
                             </div>
                         </div>
                     </a>
