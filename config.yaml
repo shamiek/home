@@ -179,10 +179,13 @@ params:
     index: false
     items:
       - title: "PhD in Computer Science"
+        title2: "PostDoc"
+          # url: "https://www.inf.usi.ch/en"
         school:
           name: "Università della Svizzera italiana"
-          url: "https://www.inf.usi.ch/en"
-        date: "2019 - present"
+          # url: "https://www.inf.usi.ch/en"
+        date: "2019 - 2024"
+        date2: "2024 - present"
         # GPA: "3.9 out of 5.0"
         #- **Confidential Analytics with Scylla**. Under review. \
         #Scylla is a mechanism-agnostic scalable confidential analytics framework built on top of the popular large-scale data analytics engine Spark. Scylla modifies Spark runtime to realize a general architecture with an efficient design that accommodates virtual-machine-like trusted execution environments (TEEs) such as Intel SGX, AMD SEV, AWS Nitro and readily compatible with latest TEEs like Intel TDX. Additionally, Scylla also utilizes partial homomorphic encryption (PHE), and enclave-like native TEEs such as Intel SGX, for secure computation.

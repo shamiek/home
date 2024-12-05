@@ -20,11 +20,20 @@
                     <div class="col-md-9">
                         <div class="card">
                             <div class="card-body">
+                                {{ if or .title2 .date2 }}
+                                    <div class="float-end">
+                                        {{ if .date2 }}
+                                        <div class="float-end">
+                                            <small>{{ .date2 }}</small>
+                                        </div>
+                                        {{ end }}
+                                    </div>
+                                    <h5 class="card-title">{{ .title2 }}</h5>
+                                {{ end }}
                                 <div class="float-end">
                                     <small>{{ .date }}</small>
                                 </div>
                                 <h5 class="card-title">{{ .title }}</h5>
-                                
                                 {{ if .school.url }}
                                 <a href="{{ .school.url }}" target="_blank">
                                     <h6>
@@ -57,6 +66,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             {{ end }}
