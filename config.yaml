@@ -165,11 +165,13 @@ params:
       enable: true
       title: "Some technologies I have worked with include:"
       items:
-        - "Scala, C++, Python, Java"
-        - "Apache Spark, Apache Hadoop"
+        - "Scala, C++, Python, GoLang, Java"
+        - "Apache Spark, Apache Hadoop, Airflow"
         - "Intel Software Guard Extensions (SGX), AWS Nitro, AMD Secure Encrypted Virtualization (SEV)"
-        - "Amazon Elastic Cloud Compute (EC2), Amazon Simple Storage Service (S3), Azure"
-        - "Docker, QEMU"
+        - "AWS EC2, S3, Microsoft Azure, GCP, OCI"
+        - "Docker, K8s, Terraform"
+        - "Flask, Jinja"
+        - "Xen, KVM, QEMU"
         - "Jekyll, Hugo"
 
   # Education
