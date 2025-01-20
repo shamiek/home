@@ -1,17 +1,17 @@
-baseURL: "https://shamiek.github.io/home/"
-languageCode: "en-us"
-title: "Hugo Profile"
+baseURL: 'https://shamiek.github.io/home/'
+languageCode: 'en-us'
+title: 'Hugo Profile'
 theme: hugo-profile
 canonifyURLs: true
 
 outputs:
   home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
+    - 'HTML'
+    - 'RSS'
+    - 'JSON'
   page:
-    - "HTML"
-    - "RSS"
+    - 'HTML'
+    - 'RSS'
 
 Paginate: 3
 enableRobotsTXT: true
@@ -25,38 +25,38 @@ markup:
 
 Menus:
   # main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: /gallery
-    #   weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+  # - identifier: blog
+  #   name: Blog
+  #   title: Blog posts
+  #   url: /blogs
+  #   weight: 1
+  # - identifier: gallery
+  #   name: Gallery
+  #   title: Blog posts
+  #   url: /gallery
+  #   weight: 2
+  #Dropdown menu
+  # - identifier: dropdown
+  #   title: Example dropdown menu
+  #   name: Dropdown
+  #   weight: 3
+  # - identifier: dropdown1
+  #   title: example dropdown 1
+  #   name: example 1
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 1
+  # - identifier: dropdown2
+  #   title: example dropdown 2
+  #   name: example 2
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 2
 
 params:
-  title: ""
+  title: ''
   description: Welcome to my site
-  staticPath: ""  # The path to serve the static files from
+  staticPath: '' # The path to serve the static files from
   # favicon: "/fav.png"
   # icon: dog
   icon: smile
@@ -121,24 +121,24 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Shamiek."
-    subtitle: "PostDoc | PhD @ USI"
+    intro: 'Hi, my name is'
+    title: 'Shamiek.'
+    subtitle: 'PostDoc | PhD @ USI'
     # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    content: "I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at USI supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc."
+    content: 'I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at USI supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
     image: me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: false
-      name: "Resume"
-      url: "#"
+      name: 'Resume'
+      url: '#'
       download: true
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-linkedin 
+        - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/shamiekmangipudi/
         - icon: fab fa-github
           url: https://github.com/shamiek
@@ -153,26 +153,26 @@ params:
   # About
   # My research focuses building secure distributed applications through the use of novel security-aware programming language to help nonexperts in cryptography and trusted computing.
   # ensuring security of distributed systems through the design and use of a novel security-aware programming language.
-  # I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+  # I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: 'About Me'
+    image: '/images/me.png'
     content: |-
       I am a PhD student advised by Prof. Patrick Eugster at the SWSYTEMS lab in Università della Svizzera Italiana (USI). My research focuses on easing the process of building secure distributed applications for those not acquainted with cryptography and trusted computing.
-    
+
     skills:
       enable: true
-      title: "Some technologies I have worked with include:"
+      title: 'Some technologies I have worked with include:'
       items:
-        - "Scala, C++, Python, GoLang, Java"
-        - "Apache Spark, Apache Hadoop, Airflow"
-        - "Intel Software Guard Extensions (SGX), AWS Nitro, AMD Secure Encrypted Virtualization (SEV)"
-        - "AWS EC2, S3, Microsoft Azure, GCP, OCI"
-        - "Docker, K8s, Terraform"
-        - "Flask, Jinja"
-        - "Xen, KVM, QEMU"
-        - "Jekyll, Hugo"
+        - 'Scala, C++, Python, GoLang, Java'
+        - 'Apache Spark, Apache Hadoop, Airflow'
+        - 'Intel Software Guard Extensions (SGX), AWS Nitro, AMD Secure Encrypted Virtualization (SEV)'
+        - 'AWS EC2, S3, Microsoft Azure, GCP, OCI'
+        - 'Docker, K8s, Terraform'
+        - 'Flask, Jinja'
+        - 'Xen, KVM, QEMU'
+        - 'Jekyll, Hugo'
 
   # Education
   education:
@@ -180,40 +180,42 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "PhD in Computer Science"
-        title2: "PostDoc"
+      - title: 'PhD in Computer Science'
+        title2:
+          'PostDoc'
           # url: "https://www.inf.usi.ch/en"
         school:
-          name: "Università della Svizzera italiana"
+          name: 'Università della Svizzera italiana'
           # url: "https://www.inf.usi.ch/en"
-        date: "2019 - 2024"
-        date2: "2024 - present"
+        date: '2019 - 2024'
+        date2: '2024 - present'
         # GPA: "3.9 out of 5.0"
         #- **Confidential Analytics with Scylla**. Under review. \
         #Scylla is a mechanism-agnostic scalable confidential analytics framework built on top of the popular large-scale data analytics engine Spark. Scylla modifies Spark runtime to realize a general architecture with an efficient design that accommodates virtual-machine-like trusted execution environments (TEEs) such as Intel SGX, AMD SEV, AWS Nitro and readily compatible with latest TEEs like Intel TDX. Additionally, Scylla also utilizes partial homomorphic encryption (PHE), and enclave-like native TEEs such as Intel SGX, for secure computation.
         content: |-
-          - **Security Policy as Code**. In progress.
 
           - **Confidential Analytics with Scylla**. In progress.
+
+          - Security Policy as Code. [IEEE Security & Privacy](https://www.computer.org/csdl/magazine/sp).
 
           - [Generalized policy-based noninterference for efficient confidentiality-preservation (PLDI 2023).](https://pldi23.sigplan.org/track/pldi-2023-pldi) Published at the 44th ACM SIGPLAN Conference on Programming Language Design and Implementation. \
           **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides. [Link to full paper.](https://swystems.usi.ch/files/hydra_supplementary.pdf) \
           A hybrid solution to distributed confidentiality-preserving data analytics (HYDRA) based on Apache Spark which supports both Intel SGX and parital homomorphic encryption (PHE) in isolation or their hybrid combo to achieve end-to-end confidential guarantees based on a novel formulation of noninterference.
-          
+
           Courses:
            - Distributed Systems, Data Management, Distributed Algorithms, Software Analysis.
 
           Extracurricular Activities:
-            - Active member of the ski club. 
+            - Active member of the ski club.
         featuredLink:
           enable: false
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "Masters in Computer Science"
+          name: 'My academic record'
+          url: 'https://example.com'
+      - title: 'Masters in Computer Science'
         school:
-          name: "Purdue University"
-          url: "https://www.cs.purdue.edu/"
-        date: "2015 - 2017"
+          name: 'Purdue University'
+          url: 'https://www.cs.purdue.edu/'
+        date: '2015 - 2017'
         # GPA: "3.8 out of 5.0"
         content: |-
           Courses: 
@@ -223,13 +225,13 @@ params:
             - Key leader for SKY Campus Happiness (SKY@Purdue).
         featuredLink:
           enable: false
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "Bachelor of Technology in Electrical and Electronics Engineering"
+          name: 'My academic record'
+          url: 'https://example.com'
+      - title: 'Bachelor of Technology in Electrical and Electronics Engineering'
         school:
-          name: "Indian Institute of Technology Guwahati (IITG)"
-          url: "https://www.iitg.ac.in/"
-        date: "2011 - 2015"
+          name: 'Indian Institute of Technology Guwahati (IITG)'
+          url: 'https://www.iitg.ac.in/'
+        date: '2011 - 2015'
         # GPA: "3.9 out of 5.0"
         content: |-
           Courses:
@@ -239,8 +241,8 @@ params:
             - Valuable player of IITG water polo team.
         featuredLink:
           enable: false
-          name: "My academic record"
-          url: "https://example.com"
+          name: 'My academic record'
+          url: 'https://example.com'
       # - title: "High School"
       #   school:
       #     name: "Thomas Jefferson High School for Science and Technology."
@@ -250,20 +252,20 @@ params:
       #     enable: true
       #     url: "https://example.com"
 
- # Experience
+  # Experience
   # I worked as a software engineer at [SensorHound.](https://www.sensorhound.com/) in West Lafayette, IN.
   # NSF SBIR phase 2 grant # 1345940
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Software Developer"
-        company: "SensorHound"
-        companyUrl: "https://www.sensorhound.com/"
-        date: "2017 - 2019"
+      - job: 'Software Developer'
+        company: 'SensorHound'
+        companyUrl: 'https://www.sensorhound.com/'
+        date: '2017 - 2019'
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: 'https://example.com'
         info:
           enable: false
           content: I worked as a software engineer for more than one year at SensorHound.
@@ -274,16 +276,16 @@ params:
           - Lead developer for SensorDoctor --- a diagnostic tool to replay exploits.
           - **Designed** tests and **successfully tested** over comprehensive code structures across linux-based application utilities such as _wget, vim, sed, flex, grep, gzip, bash, etc._
 
-# company: "University of Western Australia (UWA)"
-# companyUrl: "https://www.uwa.edu.au/schools/Physics-Mathematics-Computing/Department-of-Computer-Science-and-Software-Engineering"
+      # company: "University of Western Australia (UWA)"
+      # companyUrl: "https://www.uwa.edu.au/schools/Physics-Mathematics-Computing/Department-of-Computer-Science-and-Software-Engineering"
 
-      - job: "Research Intern"
-        company: "University of Western Australia"
-        companyUrl: "https://www.uwa.edu.au/schools/Physics-Mathematics-Computing/Department-of-Computer-Science-and-Software-Engineering"
-        date: "Summer 2014"
+      - job: 'Research Intern'
+        company: 'University of Western Australia'
+        companyUrl: 'https://www.uwa.edu.au/schools/Physics-Mathematics-Computing/Department-of-Computer-Science-and-Software-Engineering'
+        date: 'Summer 2014'
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: 'https://example.com'
         info:
           enable: false
           content: I worked as a visiting research intern for 8 weeks at SensorHound.
@@ -294,13 +296,13 @@ params:
           - **Reduced** reconstruction time of femoral head by over **50%**.
           - **Achieved** an outstanding accuracy of **93%** compared to manual reconstruction of femoral head.
 
-      - job: "Course Instructor"
-        company: "Purdue University"
-        companyUrl: "https://www.cs.purdue.edu/"
-        date: "Summer 2016"
+      - job: 'Course Instructor'
+        company: 'Purdue University'
+        companyUrl: 'https://www.cs.purdue.edu/'
+        date: 'Summer 2016'
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: 'https://example.com'
         info:
           enable: false
           content: I worked as a visiting research intern for 8 weeks at SensorHound.
@@ -355,8 +357,6 @@ params:
       #   date: "Feb 2016 - Mar 2017"
       #   content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-
-
   # Achievements
   achievements:
     enable: true
@@ -373,9 +373,9 @@ params:
         url: https://swystems.usi.ch/
       - title: NSF SBIR grant & TechConnect award for SensorHound, Inc.
         content: |
-         Key contributions in securing
-            - **NSF Small Business Innovation Research (SBIR)** grant.
-            - **TechConnect Defense Innovation Award 2018** for SensorHound, Inc.
+          Key contributions in securing
+             - **NSF Small Business Innovation Research (SBIR)** grant.
+             - **TechConnect Defense Innovation Award 2018** for SensorHound, Inc.
         url: https://swystems.usi.ch/
       # - title: Hugo Profile
       #   content: Developed a theme and getting 1K+ downloads per month.
@@ -389,7 +389,7 @@ params:
   # projects
   projects:
     enable: false
-    title: "Past Projects"
+    title: 'Past Projects'
     items:
       - title: Parallel Ensemble Trees
         content: Implemented scalable parallel ensemble methods (Bagging, Random Forest, AdaBoost) using Decision Trees and investigated their efficiency and speed-up curves.
@@ -398,7 +398,7 @@ params:
           name: Presentation
           link: https://hugo-profile.netlify.app
         badges:
-          - "C++"
+          - 'C++'
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -449,7 +449,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: 'blogs'
       count: 3
       title: Recent Posts
       enable: false
@@ -468,19 +468,19 @@ params:
   singlePages:
     readTime:
       enable: true
-      content: "min read"
+      content: 'min read'
     scrollprogress:
       enable: true
 
   # For translations
   terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
+    read: 'Read'
+    toc: 'Table Of Contents'
+    copyright: 'All rights reserved'
+    pageNotFound: 'Page not found'
+    emailText: 'Check out this site'
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: 'Jan 2, 2006'
+    articleList: 'Jan 2, 2006'
+    articleRecent: 'Jan 2, 2006'
