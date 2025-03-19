@@ -125,7 +125,7 @@ params:
     title: 'Shamiek.'
     subtitle: 'Postdoc | PhD @ USI'
     # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    content: 'I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en) supervised by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
+    content: 'I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en) headed by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
     image: me.png
     bottomImage:
       enable: true
@@ -154,12 +154,15 @@ params:
   # My research focuses building secure distributed applications through the use of novel security-aware programming language to help nonexperts in cryptography and trusted computing.
   # ensuring security of distributed systems through the design and use of a novel security-aware programming language.
   # I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+  # My research focuses on easing the process of building secure distributed applications for those not acquainted with cryptography and secure computing.
+  # by efficiently employing cryptography, including partially homomorphic encryption, and trusted execution environments.
+  # My research simplifies the development of secure distributed applications by efficiently leveraging cryptography, including partially homomorphic encryption, and trusted execution environments for secure computing.
   about:
     enable: true
     title: 'About Me'
     image: '/images/me.png'
     content: |-
-      I am a PhD student advised by Prof. Patrick Eugster at the SWSYTEMS lab in [Università della Svizzera Italiana (USI)](https://www.usi.ch/en). My research focuses on easing the process of building secure distributed applications for those not acquainted with cryptography and trusted computing.
+      I am a PhD student advised by Prof. Patrick Eugster at the [SWSYTEMS lab](https://swystems.usi.ch/) in [Università della Svizzera Italiana (USI)](https://www.usi.ch/en). My research simplifies the development of secure distributed applications by efficiently employing cryptography, including partially homomorphic encryption, and trusted execution environments for secure computing.
 
     skills:
       enable: true
@@ -192,17 +195,19 @@ params:
         # GPA: "3.9 out of 5.0"
         #- **Confidential Analytics with Scylla**. Under review. \
         #Scylla is a mechanism-agnostic scalable confidential analytics framework built on top of the popular large-scale data analytics engine Spark. Scylla modifies Spark runtime to realize a general architecture with an efficient design that accommodates virtual-machine-like trusted execution environments (TEEs) such as Intel SGX, AMD SEV, AWS Nitro and readily compatible with latest TEEs like Intel TDX. Additionally, Scylla also utilizes partial homomorphic encryption (PHE), and enclave-like native TEEs such as Intel SGX, for secure computation.
+        # A hybrid solution to distributed confidentiality-preserving data analytics (HYDRA) based on Apache Spark which supports both Intel SGX and parital homomorphic encryption (PHE) in isolation or their hybrid combo to achieve end-to-end confidential guarantees based on a novel formulation of noninterference.
+        # **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides.
+        # Grateful to be awarded the prestigious [Bridge Proof of Concept grant for young researchers](https://www.bridge.ch/en/OUlwVr73Qg55dJtK/page/funding/proof-of-concept).\ STRIDE - secure transparent resilient independent distributed execution.
         content: |-
 
-          - Grateful to be awarded the prestigious [Bridge Proof of Concept grant for young researchers](https://www.bridge.ch/en/OUlwVr73Qg55dJtK/page/funding/proof-of-concept). STRIDE - secure transparent resilient independent distributed execution. CHF ~130k.
+          - Grateful to be awarded the prestigious [Bridge Proof of Concept grant](https://www.bridge.ch/en/OUlwVr73Qg55dJtK/page/funding/proof-of-concept) for STRIDE (secure transparent resilient independent distributed execution).
 
           - **Confidential Analytics with Scylla**. In progress.
 
-          - [Security Policy as Code](https://doi.org/10.1109/MSEC.2025.3535803). Published at [IEEE Security & Privacy (IEEE S&P)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013).
+          - [Security Policy as Code](https://doi.org/10.1109/MSEC.2025.3535803). Published at [IEEE S&P](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013).
 
-          - [Generalized policy-based noninterference for efficient confidentiality-preservation.](https://dl.acm.org/doi/10.1145/3591231) Published at [ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)](https://dl.acm.org/journal/pacmpl). \
-          **Shamiek Mangipudi**, Pavel Chuprikov, Patrick Eugster, Malte Viering, Savvas Savvides. [Link to full paper.](https://swystems.usi.ch/files/hydra_supplementary.pdf) \
-          A hybrid solution to distributed confidentiality-preserving data analytics (HYDRA) based on Apache Spark which supports both Intel SGX and parital homomorphic encryption (PHE) in isolation or their hybrid combo to achieve end-to-end confidential guarantees based on a novel formulation of noninterference.
+          - [Generalized policy-based noninterference for efficient confidentiality-preservation.](https://dl.acm.org/doi/10.1145/3591231) Published at [PLDI](https://dl.acm.org/journal/pacmpl). \
+          [Link to full paper.](https://swystems.usi.ch/files/hydra_supplementary.pdf)
 
           Courses:
            - Distributed Systems, Data Management, Distributed Algorithms, Software Analysis.
