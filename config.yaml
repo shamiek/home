@@ -124,8 +124,8 @@ params:
     intro: 'Hi, my name is'
     title: 'Shamiek.'
     subtitle: 'Postdoc | PhD @ USI'
-    # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    content: 'I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en) headed by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
+    # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly. I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) founded by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). Università della Svizzera Italiana"
+    content: 'I am a postdoctoral researcher in the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en). Before that, I received my PhD from USI under supervision of [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
     image: me.png
     bottomImage:
       enable: true
@@ -157,12 +157,13 @@ params:
   # My research focuses on easing the process of building secure distributed applications for those not acquainted with cryptography and secure computing.
   # by efficiently employing cryptography, including partially homomorphic encryption, and trusted execution environments.
   # My research simplifies the development of secure distributed applications by efficiently leveraging cryptography, including partially homomorphic encryption, and trusted execution environments for secure computing.
+  # I am a PhD student advised by
   about:
     enable: true
     title: 'About Me'
     image: '/images/me.png'
     content: |-
-      I am a PhD student advised by Prof. Patrick Eugster at the [SWSYTEMS lab](https://swystems.usi.ch/) in [Università della Svizzera Italiana (USI)](https://www.usi.ch/en). My research simplifies the development of secure distributed applications by efficiently employing cryptography, including partially homomorphic encryption, and trusted execution environments for secure computing.
+      My research simplifies the development of distributed applications for secure computing by efficiently employing cryptography, including partially homomorphic encryption, and trusted execution environments.
 
     skills:
       enable: true
