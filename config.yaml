@@ -125,7 +125,8 @@ params:
     title: 'Shamiek.'
     subtitle: 'Postdoc | PhD @ USI'
     # content: "I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly. I am part of the [SWSYTEMS lab](https://swystems.usi.ch/) founded by [Prof. Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). Università della Svizzera Italiana"
-    content: 'I am a postdoctoral researcher in the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en). Before that, I received my PhD from USI under supervision of [Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
+    # Before that, I received my PhD from USI under supervision of [Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp).
+    content: 'I am a postdoctoral researcher in the [SWSYTEMS lab](https://swystems.usi.ch/) at [USI](https://www.usi.ch/en). I am broadly interested in distributed systems, security, programming languages and their interaction. I like to ski, hike, swim, cook, do yoga etc.'
     image: me.png
     bottomImage:
       enable: true
